@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FavouritesListActivity"
+    android:background="@color/black">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/top"
+            android:layout_alignParentTop="true"
+            android:padding="7dp"
+            >
+
+            <TextView
+                android:id="@+id/favnumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Favourites (0)"
+                android:fontFamily="@font/epilogue"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/favListRec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top"
+        android:layout_above="@id/miniRel"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/txtFavWillAppear"
+        android:visibility="gone"
+
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/empty_folder"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imgEmpty"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Favourites will appear here"
+            android:layout_below="@id/imgEmpty"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold"
+
+            android:fontFamily="@font/epilogue"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_bar"
+        android:layout_alignParentBottom="true"
+        android:padding="5dp"
+        android:id="@+id/miniRel"
+        >
+
+        <ImageView
+            android:id="@+id/faMetaImage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/disk" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_toRightOf="@id/faMetaImage"
+            android:layout_centerVertical="true"
+            android:id="@+id/lDetails"
+            >
+            <TextView
+                android:id="@+id/faCurrentSongTitle"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/epilogue"
+                android:text="Current song title"
+                android:textColor="@color/white"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="Artist"
+                android:layout_below="@id/asCurrentSongTitle"
+                android:id="@+id/faCurrentSongArtist"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textColor="@color/white"
+                android:layout_marginStart="5dp"/>
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/faPlayPause"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_pause" />
+    </RelativeLayout>
+</RelativeLayout>

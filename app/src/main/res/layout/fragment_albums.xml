@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.AlbumsFragment"
+    android:background="@color/black">
+
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="@color/cus_black"
+     android:id="@+id/showNumRel"
+
+     >
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentStart="true"
+      android:layout_marginStart="7dp"
+      android:padding="4dp"
+      android:id="@+id/txtShowSongs"
+      android:text="0 Albums"
+      android:textColor="@color/white" />
+
+
+ </RelativeLayout>
+
+ <ProgressBar
+     android:layout_width="50dp"
+     android:layout_height="50dp"
+     android:layout_centerInParent="true"
+     android:id="@+id/abfetchingProgress"
+     android:visibility="gone"
+     />
+
+ <androidx.recyclerview.widget.RecyclerView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_below="@id/showNumRel"
+     android:id="@+id/abAlbumsRec"
+     />
+
+</RelativeLayout>

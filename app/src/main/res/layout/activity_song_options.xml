@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SongOptionsActivity"
+    android:background="@color/black">
+
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bar"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="4dp"
+        android:background="@color/black"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PlayStein"
+                        android:textColor="@color/white"
+                        android:id="@+id/textPlayStein"
+                        android:textSize="20sp" />
+
+
+                </RelativeLayout>
+
+
+                <ImageView
+                    android:id="@+id/imgSearch"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/ic_search_white" />
+
+                <ImageView
+                    android:id="@+id/imgSortOrder"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/imgSearch"
+                    android:src="@drawable/ic_baseline_sort_24" />
+
+                <ImageView
+                    android:id="@+id/findPosition"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="25dp"
+                    android:visibility="gone"
+                    android:layout_toLeftOf="@id/imgSortOrder"
+                    android:src="@drawable/ic_find_song" />
+
+
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        app:tabSelectedTextColor="@color/burnt_orange"
+        android:layout_below="@id/bar"
+        app:tabMaxWidth="0dp"
+        app:tabGravity="fill"
+        app:tabMode="fixed"
+        app:tabTextColor="@color/white"
+        android:id="@+id/tabLayout"
+        >
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/miniRel"
+        android:layout_below="@id/tabLayout" />
+
+    <RelativeLayout
+        android:id="@+id/miniRel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_bar"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/asMetaImage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/my_display_disk" />
+
+        <LinearLayout
+            android:id="@+id/lDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/asMetaImage"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/asCurrentSongTitle"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/epilogue"
+                android:maxLines="1"
+                android:text="Current song title"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/asCurrentSongArtist"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/asCurrentSongTitle"
+                android:layout_marginStart="5dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Artist"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/asPlayPause"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_pause" />
+    </RelativeLayout>
+
+</RelativeLayout>

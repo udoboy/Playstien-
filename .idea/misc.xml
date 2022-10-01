@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable-anydpi/ic_cancel.xml" value="0.153" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable-anydpi/ic_fav_color_filled.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable-anydpi/ic_favorite.xml" value="0.153" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable-anydpi/ic_more_vert.xml" value="0.2115" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable-anydpi/ic_music_playing.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable-anydpi/ic_order.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable-anydpi/ic_order_music.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable-anydpi/ic_order_music_main.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable-anydpi/ic_pause.xml" value="0.153" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable-anydpi/ic_play_order.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable-anydpi/ic_playlist_img.xml" value="0.157" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable-anydpi/ic_repeat_all.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable-anydpi/ic_repeat_one.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable-anydpi/ic_s_play.xml" value="0.153" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable-anydpi/ic_search_white.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable-anydpi/ic_shuffle.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable-anydpi/ic_skip_next.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable-anydpi/ic_skip_previous.xml" value="0.153" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.153" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/bg_bar.xml" value="0.153" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/bg_edt_seek.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/bg_img.xml" value="0.153" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/bg_ring.xml" value="0.157" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/bg_search_edt.xml" value="0.16" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_add.xml" value="0.153" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_add_box.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_android_black_24dp.xml" value="0.153" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_arrow_back.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_arrow_down.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_artboard_1drawdisk.xml" value="0.153" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_artboard_1playofficial.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_asset_dotdot.xml" value="0.2115" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_asset_searchplay.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_asset_searchseek.xml" value="0.2115" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_asset_searchseekmod.xml" value="0.2115" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_asset_seekmodtwo.xml" value="0.2115" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.153" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_baseline_mobile_screen_share_24.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_baseline_music_note_24.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_baseline_play_arrow_24.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_baseline_playlist_add_24.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_baseline_sort_24.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_cancel_black.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_fav_black.xml" value="0.153" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_fav_red_filled.xml" value="0.153" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_find_and_replace.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_launcher_background.xml" value="0.153" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_my_order_img.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_pause_black.xml" value="0.153" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_play_black.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_play_next_black.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_play_previoust_black.xml" value="0.2115" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_plzy_next_img.xml" value="0.2115" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_read_more.xml" value="0.153" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_search_black.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_searchsong.xml" value="0.153" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/ic_seek_go.xml" value="0.1525" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/drawable/rotating_disk.xml" value="0.153" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/activity_all_songs.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/activity_details.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/activity_display_items.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/activity_favourites_list.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/activity_music_display.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/activity_music_player.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/activity_play_list_options.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/activity_playlist.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/activity_search.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/activity_song_options.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/album_list_layout.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/aritist_list_layout_item.xml" value="0.10208333333333333" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/artist_item.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/artists_list_layout_item.xml" value="1.225" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/background.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/bg_action.xml" value="0.5428571428571428" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/create_new_playlist.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/create_new_playlist_dialogue.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/display_img_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/display_songs_layout.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/fragment_albums.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/fragment_all_songs.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/fragment_artist.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/fragment_genere.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/genre_item.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/map_position_layout.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/map_positions_layout.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/mini_details_layout.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/playlist_layout_item.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/seeksearch_item.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/songs_item.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/DfiMusic/app/src/main/res/layout/songs_options_layout.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
